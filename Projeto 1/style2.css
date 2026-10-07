@@ -1,0 +1,159 @@
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ header {
+    margin: 47px 0 163px 42px;
+ }
+
+ .link-header {
+    font-weight: 400;
+    font-size: 14px;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 32px;
+    line-height: 20px; 
+    letter-spacing: 0.875;
+ }
+
+ .button-header {
+    line-height: 51px;
+    width: 124px;
+    height: 51px;
+    color: white;
+    background-color:#6FBF44;
+    border-color: #4CB538;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: 500px;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 1px;
+ }
+
+  .image-main {
+    width: 595.18px;
+    height: 500px;
+    /* margin-top: 246px; */
+    margin-left: 121px;
+    display: inline-block;
+    margin-bottom: 10px;
+ }
+
+ section {
+   display: inline-block;
+ }
+
+ h1 {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    color: #161A49;
+    width: 582px;
+    letter-spacing: 0.596px;
+    margin-left: 84.82px;
+ }
+
+ p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    color:  #4B505A;
+    width: 493px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+    letter-spacing: 0.5px;
+    margin-left: 84.82px;
+ }
+
+ .link-main {
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    width: 112px;
+    cursor: pointer;
+    margin-left: 84.82px;
+}
+
+@media screen and (max-width: 1050px) {
+  
+   header {
+      margin: 0;
+      margin-left: 0;
+   }
+
+   main {
+      display: block;
+      text-align: center;
+      margin: auto;
+      padding: 43px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   h1{
+      order: 0;
+   }
+
+   p{
+      order: 0;
+   }
+
+   div{
+      display: flex;
+      flex-direction: column;
+      order: 1;
+   }
+   
+
+   .link-header {
+      display: none;
+   }
+   
+   .button-header {
+      margin: 17px 0 0 70%;
+   } 
+
+   .image-main {
+      position: relative;
+      margin-top: 10px;
+      max-width: 500px;
+      max-height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      /* text-align: center; */
+      width: 90%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      order: 1;
+   }
+
+   h1{
+      font-weight: 700;
+      font-size: 30px;
+      text-align: center;
+      margin-top: 2em;
+      width: auto;
+      line-height: 30px;
+      margin-left: 0;
+   }
+
+   p{
+      width: auto;
+      margin: 29px 0 26px 0;
+   }
+
+   .link-main {
+      display: block;
+      margin: auto;
+      letter-spacing: 1px;
+   }
+}
