@@ -1,0 +1,108 @@
+<!-- POSITION 
+
+position: static (padrão) - Nao aceita valores de top, bottom, right e left
+position: fixed - fixa o elemento na tela
+position: sticky - age como one adesivo, fixa o elemento só onde eu determinar
+position: relative - posicão relativa a posição inicial dele
+position: absolute - posição absoluta (fixa) a algone elemento ou a página
+                        -SE não tiver pai / pai for static -> Posiciona referente a página
+                        -SE o pai NÃO for static -> Posiciona referente ao pai
+
+
+    proprieonees:
+        -top
+        -bottom
+        -left
+        -right 
+-->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+</head>
+<body>
+    <div class="one">
+        <div class="two">
+            <div class="three">
+                <div class="four">
+                    <div class="five"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="six"></div>
+
+    <div class="seven"></div>
+</body>
+
+<style>
+    .one {
+        background-color:brown;
+        width: 300px;
+        height: 300px;
+ }
+
+    .two {
+        background-color:aqua;
+        width: 150px;
+        height: 150px;
+        position: relative;
+        top: 75px;
+        bottom: 75px;
+        left: 75px;
+}
+
+    .three {
+        background-color: gold;
+        width: 75px;
+        height: 75px;
+        position: relative;
+        top: 37.5px;
+        left: 37.5px;
+    }
+
+    .four {
+        background-color: crimson;
+        width: 18.75px;
+        height: 18.75px;
+        position: absolute;
+        top: 5px;
+        left: 2px;
+    }
+
+    .five {
+        background-color: crimson;
+        width: 18.75px;
+        height: 18.75px;
+        position: absolute;
+        left: 52px;
+    }
+
+    .six {
+        background-color: crimson;
+        height: 13px;
+        width: 50px;
+        position: relative;
+        top: -133px;
+        left: 125px;
+    }
+
+    .seven {
+        background-color: greenyellow;
+        height: 22px;
+        width: 5px;
+        position: absolute;
+        top: 147px;
+        left: 154px;
+    }
+
+</style>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elementos</title>
+</head>
+<body>
+    <input placeholder="Digite Aqui">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus animi maxime harum! Minima animi id ratione labore quod enim quaerat adipisci accusamus! Provident expedita ut porro sit molestias. Quam, dolorem!</p>
+    <a>Link 12345</a>
+</body>
+
+<style>
+    input {
+        border: 1px solid blue;
+        color: red;
+    }
+
+
+    input::placeholder {
+        color:aquamarine
+    }
+
+    p {
+        color: orange;
+    }
+
+    p::first-letter {
+        color:green;
+    }
+
+    /* p::first-line {
+        color:gray;
+    } */
+
+    a {
+        color:purple;
+    }
+
+    a::before {
+        content: "->"
+    }
+    a::after{
+        content:"<-"
+    }
+
+</style>
+
+</html>

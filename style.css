@@ -1,0 +1,18 @@
+    /*CCS = Folha de estilo em Cascata
+ Ela estiliza os elementos e lendo o código de cima para baixo. */
+  
+  
+  h1 {
+        color: red; 
+        background: black;
+    }
+
+    p {
+        color: blue;
+        font-size: 20px;
+    }
+
+    button {
+        background: green;
+        border-color: darkgreen;
+    }

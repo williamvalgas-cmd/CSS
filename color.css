@@ -1,0 +1,31 @@
+h1 {
+    background: rgb(red, green, blue)
+}
+
+/* 
+A intensidade vai de 0 a 255.
+RED 
+GREEN
+BLUE
+ */
+
+
+h2 {
+    background: #0000FF
+}
+
+ /* HEXADECIMAL ->
+ CURIOSIDADE
+ DECIMAL: 0,1,2,3,4,5,6,7,8,9. MAX: 99
+ HEXADECIMAL: 0,,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F. MAX: FF
+            10,11,12,13,14,15... 1A,1B,1C,1D... 
+            
+*/
+
+/* 
+SITES
+w3schools.com
+color.adobe.com
+coolors.co
+Extenção do google Chrome: ColorZilla
+*/
