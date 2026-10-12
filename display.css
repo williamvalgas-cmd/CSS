@@ -1,3 +1,0 @@
-display: block; /* Exibe o elemento como um bloco, ele ocupa a linha inteira */
-display: inline; /* Exibe o elemento como um elemento em linha, não muda width nem height*/
-display: inline-block; /* Exibe o elemento como um bloco em linha, posso mudar width e height */
