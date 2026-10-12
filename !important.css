@@ -1,9 +1,0 @@
-  .important {
-  color: blue !important;
-  color:purple;
-}
-
-/* Quem será aplicado será o blue e não o purple, pois o 
-"!important" dá prioridade a aplicação da linha em que ele está aplicado */
-
-/* */
